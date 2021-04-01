@@ -22,7 +22,6 @@ func testNumber(_ number : Int) -> Bool {
 }
 
 
-var test = 1111
-print(testDigits(1111))
-print(testNumber(1111))
-
+let test = 1111
+print(testDigits(test))
+print(testNumber(test))
